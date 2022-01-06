@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    Name:Kartik <br>
+    Adresss: Delhi <br>
+    Mail:<a href="mailto:example@gmail.com">example@gmail.com</a>
+    <br><br>
+    <form action="mailto:example@gmail.com " method="post" enctype="text/plain">
+        <label>Your name</label>
+        <input type="text" name="yourname" required> <!--required attribute makes it mandoatory to fill the input tag for the form to be submitted-->
+        <br> <br>
+        <label>Your email</label>
+        <input type="email" name="yourEmail" required>
+        <br><br>
+        Gender <select name="" id=""><option value="Male">Male</option><option value="Female">Female</option><option value="Other">Other</option></select>
+        <br><br>
+        Date of Birth &nbsp <input type="date" name="birthdate" id=""> 
+        <br> <br>
+        Your Resume<input type="file" name="insertfile" id="">
+        <label>Get email updates</label>
+        <input type="checkbox">
+        <br><br>
+        Your Message
+        <br>
+        <textarea name="yourmessage" id="" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit">
+        <br><br>
+    </form>
+    <label>Will Matt Reeves The Batman be better than Nolan's Batman Begins</label> &nbsp;
+        <input type="radio" name="composer" id="compose"/><label for="compose">Male</label> <!--name attribute is for server to group all items under said name attribute together-->
+        <input type="radio" name="composer" id="compos"/><label for="compos">Female</label> <!--label for attribute defines what input tag item the label is for, -->
+        <br><br> <!--label tag in radio helps to select the "Choice" while hovering over the "Choice" and not only the radio buttons-->
+    
+</body>
+</html>
